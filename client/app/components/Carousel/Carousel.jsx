@@ -15,7 +15,7 @@ class Carousel extends React.Component {
   }
 
   fetchImages = async () => {
-    const response = await axios.get('http://localhost:3000/image');
+    const response = await axios.get('http://localhost:3000/images');
     this.setState({ image: response.data });
   };
 
