@@ -1,5 +1,8 @@
 ## instructions
 
+- build/start server first since client will fetch data from server (ie: image_url, text for overlapping images)
+- build/start client server (fetches info from server)
+
 ### run server first (port 3000, urls -> 3000/ssr)
 
 - npm install
