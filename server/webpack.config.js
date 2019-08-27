@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 // might things like code splitting, since entry is just fetching clicker
 const config = {
-  entry: './src/client.js',
+  entry: './src/client/client.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
